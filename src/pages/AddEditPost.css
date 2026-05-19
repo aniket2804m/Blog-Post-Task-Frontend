@@ -1,0 +1,230 @@
+/* =========================
+   PAGE
+========================= */
+
+.post-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 40px 20px;
+}
+
+
+/* =========================
+   CONTAINER
+========================= */
+
+.post-container {
+  max-width: 850px !important;
+}
+
+
+/* =========================
+   TOP HEADER
+========================= */
+
+.post-top-header {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 40px 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+}
+
+
+/* =========================
+   ICON
+========================= */
+
+.post-icon {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    #7b2ff7,
+    #5f27cd
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: white;
+  box-shadow: 0 8px 24px rgba(123, 47, 247, 0.3);
+}
+
+
+/* =========================
+   TITLES
+========================= */
+
+.post-main-title {
+  font-weight: 700 !important;
+  color: #111;
+  margin-bottom: 10px !important;
+}
+
+.post-subtitle {
+  color: #777;
+  font-size: 15px;
+}
+
+
+/* =========================
+   FORM CARD
+========================= */
+
+.post-form-card {
+  background: #fff !important;
+  border-radius: 22px !important;
+  padding: 35px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06) !important;
+}
+
+
+/* =========================
+   FORM SECTIONS
+========================= */
+
+.form-section {
+  margin-bottom: 35px;
+}
+
+.section-heading {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #222;
+  margin-bottom: 20px !important;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+
+/* =========================
+   INPUTS
+========================= */
+
+.custom-input .MuiOutlinedInput-root {
+  border-radius: 14px !important;
+  background: #fafafa;
+  transition: 0.3s;
+}
+
+.custom-input .MuiOutlinedInput-root:hover {
+  background: #fff;
+}
+
+.custom-input
+  .MuiOutlinedInput-root.Mui-focused {
+  box-shadow: 0 0 12px rgba(123, 47, 247, 0.2);
+}
+
+.custom-input input,
+.custom-input textarea {
+  font-size: 15px !important;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.cancel-btn {
+  border-radius: 12px !important;
+  padding: 10px 24px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+}
+
+.publish-btn {
+  border-radius: 12px !important;
+  padding: 10px 28px !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  background: linear-gradient(
+    135deg,
+    #7b2ff7,
+    #5f27cd
+  ) !important;
+  box-shadow: 0 8px 20px rgba(123, 47, 247, 0.3) !important;
+}
+
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width: 992px) {
+
+  .post-top-header {
+    padding: 30px 20px;
+  }
+
+  .post-form-card {
+    padding: 25px;
+  }
+
+  .post-main-title {
+    font-size: 2rem !important;
+  }
+
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+  .post-page {
+    padding: 20px 10px;
+  }
+
+  .post-top-header {
+    padding: 25px 15px;
+    border-radius: 18px;
+  }
+
+  .post-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 26px;
+  }
+
+  .post-main-title {
+    font-size: 1.5rem !important;
+  }
+
+  .post-subtitle {
+    font-size: 14px;
+  }
+
+  .post-form-card {
+    padding: 18px;
+    border-radius: 18px !important;
+  }
+
+  .section-heading {
+    font-size: 16px !important;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .cancel-btn,
+  .publish-btn {
+    width: 100%;
+  }
+
+}
